@@ -1,4 +1,4 @@
-FROM mongo
+FROM strm/helloworld-http
 
-RUN echo hello
+EXPOSE 80
 
